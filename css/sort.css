@@ -1,0 +1,119 @@
+.sort-page .search-wraper {
+	width: 100%;
+	height: 44px;
+	background: url(../images/header-bg.png) repeat-x;
+	position: fixed;
+	top: 0;
+	border-bottom: 1px solid #ccc;
+	z-index: 9;
+}
+.sort-page .search {
+	margin: 0px 50px;
+}
+.sort-page .search input {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	font-size: 14px;
+	padding: 10px 0;
+	border: 1px solid #ccc;
+	margin-top: 4px;
+	border-radius: 6px;
+	text-indent: 14px;
+}
+.sort-page .search-wraper a {
+	width: 40px;
+	height: 44px;
+	background-color: red;
+	position: absolute;
+	top: 0;
+	padding: 10px;
+	background: url(../images/jd-sprites.png);
+	background-clip: content-box;
+	background-origin: content-box;
+	box-sizing: border-box;
+	background-size: 200px 200px;
+}
+.sort-page .search-wraper .back {
+	left: 0;
+	background-position: -20px 2px;
+}
+.sort-page .search-wraper .more {
+	right: 0;
+	background-position: -59px 2px;
+}
+/* 主体部分 */
+.sort-container {
+	margin-top: 45px;
+}
+.sort-container .sort-sub {
+	width: 90px;
+	height: 100%;
+	background-color: #F7F5F5;	
+	float: left;
+	overflow: hidden;
+	
+	position: absolute;
+	left:0;
+	top: 0;
+	margin-top: 45px;;
+}
+.sort-container .sort-sub li {
+	height: 50px;
+	width: 100%;
+	font-size: 13px;
+	line-height: 50px;
+	text-align: center;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+.sort-container .sort-sub li.active {
+	background-color: #fff;
+	border-right: none;
+}
+.sort-container .sort-sup {
+	margin-left: 90px;
+	height: 100%;
+	width: auto;
+	padding: 0 10px;
+}
+.sort-sup .pannel h4 {
+	font-size: 1px;
+	line-height: 1;
+	padding: 20px 0 10px;
+	color: #888;
+}
+.sort-sup .pannel li {
+	width: 33.3333%;
+	float: left;
+
+
+}
+.sort-sup .hot li {
+	height: 49px;
+	line-height: 49px;
+	text-align: center;
+	font-size: 12px;
+
+	border-bottom: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	/* 产生换行了，因为加了border */
+	box-sizing: border-box;
+
+}
+.sort-sup .hot ul {
+	overflow: hidden;
+	border-left: 1px solid #ccc;
+	border-top: 1px solid #ccc;
+
+}
+.sort-sup .pannel li a {
+	color: #333;
+}
+.sort-sup .pannel span {
+	display: block;
+	font-size: 12px;
+	margin: 7px 0 15px;
+	text-align: center;
+}
+
